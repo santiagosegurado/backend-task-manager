@@ -16,6 +16,9 @@ const router = Router();
  * @swagger
  * 
  */
+router.get("/", (req, res) => {
+  res.send("Hola Mundo")
+})
 router.get("/tasks", getTasks);
 router.get("/tasks/count", getTaskCounter);
 router.get("/tasks/:id", getTask);

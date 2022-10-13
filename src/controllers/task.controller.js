@@ -6,7 +6,7 @@ export const getTasks = async(req, res) => {
   try {
     const conn = await connect();
 
-    const [tasks] = await conn.execute('SELECT * FROM task');
+    const [tasks] = await conn.query('SELECT * FROM task');
     
     res.json(tasks);
 

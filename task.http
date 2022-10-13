@@ -26,7 +26,7 @@ DELETE  http://localhost:4000/tasks/1
 
 ###
 //Actualizar  
-PUT http://localhost:4000/tasks/2
+PUT http://localhost:4000/tasks/1
 Content-Type: application/json
 
 {
