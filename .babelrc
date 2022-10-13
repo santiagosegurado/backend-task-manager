@@ -1,0 +1,8 @@
+// Babel transpila mi codigo a una version antertior 
+// Archivo de Config
+// le expecifico a babel que tiene que convertir
+{
+  "presets": [
+    "@babel/preset-env"
+  ]
+}
